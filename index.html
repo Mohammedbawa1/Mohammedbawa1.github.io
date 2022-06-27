@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width="device-width", initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/components/forms/">
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/components/card/">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <title>Document</title>
+    <title>Remedy</title>
 </head>
 <body>
 
@@ -26,6 +28,7 @@
 </header>
 
 
+<!-- Home Section -->
 <section>
     <div class="home" id="home" >
         <h2 class="name">Mohammed Bawa</h2>
@@ -42,22 +45,23 @@
     </div>
 </section>
 
+
+<!-- about section -->
 <section>
-    <div class="about" id="about">
-
-        <h2 id="abt" >About Me</h2>
-        <img src="abt.JPG" alt="" class="images" id="aboutpic">
-
-        <p class="para1">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus accusamus porro itaque amet, incidunt distinctio voluptas eos! Totam quis amet, quas pariatur nisi est veniam consequuntur ipsam! Qui iusto fuga at, ducimus facere quidem quos repellat perspiciatis labore inventore officia tempore voluptate. Reprehenderit, sit unde at amet eum ratione reiciendis!<br>
-        </p>
-        <p class="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus facere rerum quae, nemo facilis quisquam at animi eum voluptatibus, culpa quaerat voluptatem placeat expedita eos repellendus iure ab tempore voluptates minima fugit. Vel praesentium odio dignissimos asperiores ullam architecto optio quas, rerum tenetur officia placeat minus fuga labore blanditiis quo.</p>
+    <div id="about">
+        <h2 class="heading">About Me</h2>
+    <div id="pic">
+        <img src="css/abt.JPG" alt="A pic of me">
+        <p id="par">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, debitis possimus tenetur eaque animi, quia, fuga earum amet dolore et quibusdam tempora provident assumenda quis suscipit quasi temporibus! Ipsa eaque ab tenetur, cumque repellendus fugit recusandae vero quam officia! A aut odio, nulla architecto voluptatibus incidunt quia earum labore eligendi molestias tenetur placeat, iusto unde voluptates accusamus enim? Atque iure, voluptatem a asperiores tenetur praesentium! Cum soluta at atque recusandae, voluptatem sequi nam autem enim dicta beatae? Inventore libero cupiditate maxime! Alias placeat quasi perferendis sequi eum quibusdam dolore magni accusamus, ut dicta veritatis doloremque inventore aspernatur molestiae eaque odio!</p>
+    </div>
+    <div id="preinfo"><p><a href="preinfo.html" target="_blank" rel="noopener noreferrer">Click Here</a></p></div>
     </div>
 </section>
-
-
-<section id="contact">
-    <h1 class="heading">Contact</h1>
+<!-- Contact Section -->
+<section>
+<div id="contact">
+    <h1  class="heading">Contact</h1>
+    <div class="card">
     <form action="POST" method="mailto:mohammedbawa504@gmail.com" class="form">
         <input type="text" name="name" class="input" 
         placeholder="Enter Your Name" required>
@@ -67,13 +71,14 @@
         <input type="submit" value="SEND" id="send">
         <br>
         <br>
-        
-
-    </form>
+        </form>
+    </div>
+</div>
 </section>
 
-<footer>
-    <p>Contact the developer</p>
+
+<footer >
+    <p>Contact Me</p>
               <div class="social">
                   <a href="https://medium.com/@mohammedbawa" target="_blank"><i class="fa-brands fa-medium"></i></a>
                   <a href="https://www.linkedin.com/in/mohammed-bawa-159a60229/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a>
@@ -85,5 +90,6 @@
               <p class="end">&copy;2022 Developed by MOH</p>
               
 </footer>
+</div>
 </body>
 </html>
