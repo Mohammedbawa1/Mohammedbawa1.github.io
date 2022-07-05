@@ -1,0 +1,29 @@
+nav ul li {
+    margin-left: 25px;
+}
+
+.home .name {
+    font-size: 3rem;
+}
+#about{
+    display: flex;
+}
+#pic{
+    display: flex;
+    flex-direction: column;
+}
+#pic img {
+    margin-left: auto;
+    margin-right: auto;
+}
+#par {
+    font-size: 1.2rem;
+    margin: 0%;
+}
+
+.input {
+    width: 50%;
+}
+#msg {
+    width: 50%;
+}
